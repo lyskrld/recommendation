@@ -1,0 +1,455 @@
+nohup: ignoring input
+>>>>>>>>>>B-I statistics>>>>>>>>>>
+Average interactions 77.80081939697266
+Non-zero rows 1.0
+Non-zero columns 1.0
+Matrix density 0.0006293139276969943
+finish loading assist data
+>>>>>>>>>>U-I statistics>>>>>>>>>>
+Average interactions 60.88433837890625
+Non-zero rows 1.0
+Non-zero columns 0.7321965897693079
+Matrix density 0.0004924801599908087
+finish loading item data
+>>>>>>>>>>U-B statistics in train>>>>>>>>>>
+Average interactions 11.758635520935059
+Non-zero rows 0.9992443868739206
+Non-zero columns 0.8920136459062281
+Matrix density 0.0005142860207568127
+finish loading bundle train data
+>>>>>>>>>>U-B statistics in test>>>>>>>>>>
+Average interactions 3.0524072647094727
+Non-zero rows 0.9992443868739206
+Non-zero columns 0.6320416375087474
+Matrix density 0.00013350276275062213
+finish loading bundle test data
+>>>>>>>>>>B-I statistics>>>>>>>>>>
+Average interactions 77.80081939697266
+Non-zero rows 1.0
+Non-zero columns 1.0
+Matrix density 0.0006293139276969943
+finish loading assist data
+>>>>>>>>>>U-I statistics>>>>>>>>>>
+Average interactions 60.88433837890625
+Non-zero rows 1.0
+Non-zero columns 0.7321965897693079
+Matrix density 0.0004924801599908087
+finish loading item data
+>>>>>>>>>>U-B statistics in train>>>>>>>>>>
+Average interactions 11.758635520935059
+Non-zero rows 0.9992443868739206
+Non-zero columns 0.8920136459062281
+Matrix density 0.0005142860207568127
+finish loading bundle train data
+>>>>>>>>>>U-B statistics in test>>>>>>>>>>
+Average interactions 1.50350821018219
+Non-zero rows 0.9992443868739206
+Non-zero columns 0.47380160951714484
+Matrix density 6.575875628934809e-05
+finish loading bundle test data
+IHGCN model
+/data/nfs/lzm/IHBR/IHBR_1/model/IHGCN.py:169: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /opt/conda/conda-bld/pytorch_1640811805959/work/torch/csrc/utils/tensor_new.cpp:201.)
+  ub_indices = torch.tensor([ub_graph_coo.row, ub_graph_coo.col], dtype=torch.long)
+finish generating bi, ui graph
+finish generating non-atom graph
+U-B Train Epoch: 1 [2048/217864 (1%)]	Loss: 1.331696
+U-B Train Epoch: 1 [43008/217864 (20%)]	Loss: 1.322471
+U-B Train Epoch: 1 [83968/217864 (38%)]	Loss: 1.292518
+U-B Train Epoch: 1 [124928/217864 (57%)]	Loss: 1.238677
+U-B Train Epoch: 1 [165888/217864 (76%)]	Loss: 1.131913
+U-B Train Epoch: 1 [206848/217864 (94%)]	Loss: 1.113072
+Train Epoch: 1: time = 127s
+Test: time=9s
+Recall@20:0.012558592258241968	NDCG@20:0.00513039863581558	Precision@20:0.0009155233928979415	Recall@40:0.02317578424010947	NDCG@40:0.007468390357092568	Precision@40:0.0008561088996038422	Recall@80:0.038094446496055874	NDCG@80:0.010248002391262266	Precision@80:0.0007217511124413936	
+Test: time=7s
+Recall@20:0.011297842602988897	NDCG@20:0.006075425868906444	Precision@20:0.0019471751419555502	Recall@40:0.02198320265991765	NDCG@40:0.008998917718163909	Precision@40:0.0018188938050995355	Recall@80:0.03969035360330741	NDCG@80:0.013057365548318363	Precision@80:0.0016055417937182628	
+U-B Train Epoch: 2 [2048/217864 (1%)]	Loss: 1.067376
+U-B Train Epoch: 2 [43008/217864 (20%)]	Loss: 1.115696
+U-B Train Epoch: 2 [83968/217864 (38%)]	Loss: 0.966970
+U-B Train Epoch: 2 [124928/217864 (57%)]	Loss: 1.000400
+U-B Train Epoch: 2 [165888/217864 (76%)]	Loss: 1.058080
+U-B Train Epoch: 2 [206848/217864 (94%)]	Loss: 1.087847
+Train Epoch: 2: time = 122s
+U-B Train Epoch: 3 [2048/217864 (1%)]	Loss: 0.936553
+U-B Train Epoch: 3 [43008/217864 (20%)]	Loss: 0.959522
+U-B Train Epoch: 3 [83968/217864 (38%)]	Loss: 0.948029
+U-B Train Epoch: 3 [124928/217864 (57%)]	Loss: 0.895216
+U-B Train Epoch: 3 [165888/217864 (76%)]	Loss: 0.903870
+U-B Train Epoch: 3 [206848/217864 (94%)]	Loss: 0.899070
+Train Epoch: 3: time = 122s
+U-B Train Epoch: 4 [2048/217864 (1%)]	Loss: 0.948528
+U-B Train Epoch: 4 [43008/217864 (20%)]	Loss: 0.866616
+U-B Train Epoch: 4 [83968/217864 (38%)]	Loss: 0.957933
+U-B Train Epoch: 4 [124928/217864 (57%)]	Loss: 0.902266
+U-B Train Epoch: 4 [165888/217864 (76%)]	Loss: 0.909654
+U-B Train Epoch: 4 [206848/217864 (94%)]	Loss: 0.898863
+Train Epoch: 4: time = 119s
+U-B Train Epoch: 5 [2048/217864 (1%)]	Loss: 1.011799
+U-B Train Epoch: 5 [43008/217864 (20%)]	Loss: 0.901327
+U-B Train Epoch: 5 [83968/217864 (38%)]	Loss: 0.887813
+U-B Train Epoch: 5 [124928/217864 (57%)]	Loss: 0.966111
+U-B Train Epoch: 5 [165888/217864 (76%)]	Loss: 0.848432
+U-B Train Epoch: 5 [206848/217864 (94%)]	Loss: 0.854254
+Train Epoch: 5: time = 118s
+U-B Train Epoch: 6 [2048/217864 (1%)]	Loss: 0.926437
+U-B Train Epoch: 6 [43008/217864 (20%)]	Loss: 0.842405
+U-B Train Epoch: 6 [83968/217864 (38%)]	Loss: 0.873528
+U-B Train Epoch: 6 [124928/217864 (57%)]	Loss: 0.914384
+U-B Train Epoch: 6 [165888/217864 (76%)]	Loss: 0.901566
+U-B Train Epoch: 6 [206848/217864 (94%)]	Loss: 0.866518
+Train Epoch: 6: time = 123s
+Test: time=8s
+Recall@20:0.04235558882251058	NDCG@20:0.01816065789582573	Precision@20:0.003076050556496718	Recall@40:0.06837438777261359	NDCG@40:0.02384767590813597	Precision@40:0.0024981096369202584	Recall@80:0.11070001791115133	NDCG@80:0.03157853934681672	Precision@80:0.002019417808111767	
+Test: time=8s
+Recall@20:0.04336064240710195	NDCG@20:0.022792321527906972	Precision@20:0.006424867792625052	Recall@40:0.0708589409087149	NDCG@40:0.030069651273513336	Precision@40:0.005212271919875832	Recall@80:0.11305672934133368	NDCG@80:0.039601159479520975	Precision@80:0.004217754133939872	
+U-B Train Epoch: 7 [2048/217864 (1%)]	Loss: 0.821435
+U-B Train Epoch: 7 [43008/217864 (20%)]	Loss: 0.890389
+U-B Train Epoch: 7 [83968/217864 (38%)]	Loss: 0.838603
+U-B Train Epoch: 7 [124928/217864 (57%)]	Loss: 0.875385
+U-B Train Epoch: 7 [165888/217864 (76%)]	Loss: 0.829779
+U-B Train Epoch: 7 [206848/217864 (94%)]	Loss: 0.874439
+Train Epoch: 7: time = 124s
+U-B Train Epoch: 8 [2048/217864 (1%)]	Loss: 0.792261
+U-B Train Epoch: 8 [43008/217864 (20%)]	Loss: 0.961557
+U-B Train Epoch: 8 [83968/217864 (38%)]	Loss: 0.936844
+U-B Train Epoch: 8 [124928/217864 (57%)]	Loss: 0.907102
+U-B Train Epoch: 8 [165888/217864 (76%)]	Loss: 0.935647
+U-B Train Epoch: 8 [206848/217864 (94%)]	Loss: 0.836794
+Train Epoch: 8: time = 124s
+U-B Train Epoch: 9 [2048/217864 (1%)]	Loss: 0.892111
+U-B Train Epoch: 9 [43008/217864 (20%)]	Loss: 0.933549
+U-B Train Epoch: 9 [83968/217864 (38%)]	Loss: 0.833289
+U-B Train Epoch: 9 [124928/217864 (57%)]	Loss: 0.834988
+U-B Train Epoch: 9 [165888/217864 (76%)]	Loss: 0.805741
+U-B Train Epoch: 9 [206848/217864 (94%)]	Loss: 0.862585
+Train Epoch: 9: time = 121s
+U-B Train Epoch: 10 [2048/217864 (1%)]	Loss: 0.880549
+U-B Train Epoch: 10 [43008/217864 (20%)]	Loss: 0.923141
+U-B Train Epoch: 10 [83968/217864 (38%)]	Loss: 0.841636
+U-B Train Epoch: 10 [124928/217864 (57%)]	Loss: 0.865746
+U-B Train Epoch: 10 [165888/217864 (76%)]	Loss: 0.858232
+U-B Train Epoch: 10 [206848/217864 (94%)]	Loss: 0.802926
+Train Epoch: 10: time = 121s
+U-B Train Epoch: 11 [2048/217864 (1%)]	Loss: 0.893000
+U-B Train Epoch: 11 [43008/217864 (20%)]	Loss: 0.820033
+U-B Train Epoch: 11 [83968/217864 (38%)]	Loss: 0.821016
+U-B Train Epoch: 11 [124928/217864 (57%)]	Loss: 0.865757
+U-B Train Epoch: 11 [165888/217864 (76%)]	Loss: 0.979470
+U-B Train Epoch: 11 [206848/217864 (94%)]	Loss: 0.795362
+Train Epoch: 11: time = 122s
+Test: time=8s
+Recall@20:0.048866326084942596	NDCG@20:0.02081097908252849	Precision@20:0.00350545540386005	Recall@40:0.08124898594451077	NDCG@40:0.027838496856920223	Precision@40:0.00290725943825087	Recall@80:0.12843345171485515	NDCG@80:0.03647451801512274	Precision@80:0.0023144647652906876	
+Test: time=7s
+Recall@20:0.05488811757995434	NDCG@20:0.029345532505175097	Precision@20:0.007864318914414482	Recall@40:0.08711763956614521	NDCG@40:0.03794897453849589	Precision@40:0.006366803541906686	Recall@80:0.13581355184435753	NDCG@80:0.048919693908823274	Precision@80:0.0050212002987221355	
+U-B Train Epoch: 12 [2048/217864 (1%)]	Loss: 0.782981
+U-B Train Epoch: 12 [43008/217864 (20%)]	Loss: 0.795241
+U-B Train Epoch: 12 [83968/217864 (38%)]	Loss: 0.940429
+U-B Train Epoch: 12 [124928/217864 (57%)]	Loss: 0.923698
+U-B Train Epoch: 12 [165888/217864 (76%)]	Loss: 0.834708
+U-B Train Epoch: 12 [206848/217864 (94%)]	Loss: 0.872077
+Train Epoch: 12: time = 123s
+U-B Train Epoch: 13 [2048/217864 (1%)]	Loss: 0.900491
+U-B Train Epoch: 13 [43008/217864 (20%)]	Loss: 0.856206
+U-B Train Epoch: 13 [83968/217864 (38%)]	Loss: 0.938588
+U-B Train Epoch: 13 [124928/217864 (57%)]	Loss: 0.770169
+U-B Train Epoch: 13 [165888/217864 (76%)]	Loss: 0.838815
+U-B Train Epoch: 13 [206848/217864 (94%)]	Loss: 0.791243
+Train Epoch: 13: time = 151s
+U-B Train Epoch: 14 [2048/217864 (1%)]	Loss: 0.925264
+U-B Train Epoch: 14 [43008/217864 (20%)]	Loss: 0.894848
+U-B Train Epoch: 14 [83968/217864 (38%)]	Loss: 0.969090
+U-B Train Epoch: 14 [124928/217864 (57%)]	Loss: 0.864326
+U-B Train Epoch: 14 [165888/217864 (76%)]	Loss: 0.840763
+U-B Train Epoch: 14 [206848/217864 (94%)]	Loss: 0.806983
+Train Epoch: 14: time = 146s
+U-B Train Epoch: 15 [2048/217864 (1%)]	Loss: 0.856840
+U-B Train Epoch: 15 [43008/217864 (20%)]	Loss: 0.786600
+U-B Train Epoch: 15 [83968/217864 (38%)]	Loss: 0.956572
+U-B Train Epoch: 15 [124928/217864 (57%)]	Loss: 0.854111
+U-B Train Epoch: 15 [165888/217864 (76%)]	Loss: 0.779331
+U-B Train Epoch: 15 [206848/217864 (94%)]	Loss: 0.776391
+Train Epoch: 15: time = 148s
+U-B Train Epoch: 16 [2048/217864 (1%)]	Loss: 0.829560
+U-B Train Epoch: 16 [43008/217864 (20%)]	Loss: 0.877882
+U-B Train Epoch: 16 [83968/217864 (38%)]	Loss: 0.917119
+U-B Train Epoch: 16 [124928/217864 (57%)]	Loss: 0.807168
+U-B Train Epoch: 16 [165888/217864 (76%)]	Loss: 0.888273
+U-B Train Epoch: 16 [206848/217864 (94%)]	Loss: 0.923206
+Train Epoch: 16: time = 147s
+Test: time=9s
+Recall@20:0.06170833377378657	NDCG@20:0.026680908431576205	Precision@20:0.004358863681184559	Recall@40:0.09685975464500154	NDCG@40:0.034341489572021246	Precision@40:0.0034554932076124594	Recall@80:0.1491950181283381	NDCG@80:0.04396234548180745	Precision@80:0.0026993086728367677	
+Test: time=9s
+Recall@20:0.06295331065052334	NDCG@20:0.033084815774711354	Precision@20:0.008868964107064664	Recall@40:0.09901037007051937	NDCG@40:0.0425807581074593	Precision@40:0.0070541213420782616	Recall@80:0.15037894746043376	NDCG@80:0.0541627041603559	Precision@80:0.005468159221837906	
+U-B Train Epoch: 17 [2048/217864 (1%)]	Loss: 0.825257
+U-B Train Epoch: 17 [43008/217864 (20%)]	Loss: 0.812575
+U-B Train Epoch: 17 [83968/217864 (38%)]	Loss: 0.919816
+U-B Train Epoch: 17 [124928/217864 (57%)]	Loss: 0.846844
+U-B Train Epoch: 17 [165888/217864 (76%)]	Loss: 0.863343
+U-B Train Epoch: 17 [206848/217864 (94%)]	Loss: 0.763113
+Train Epoch: 17: time = 151s
+U-B Train Epoch: 18 [2048/217864 (1%)]	Loss: 0.852140
+U-B Train Epoch: 18 [43008/217864 (20%)]	Loss: 0.782478
+U-B Train Epoch: 18 [83968/217864 (38%)]	Loss: 0.799765
+U-B Train Epoch: 18 [124928/217864 (57%)]	Loss: 0.910861
+U-B Train Epoch: 18 [165888/217864 (76%)]	Loss: 0.873888
+U-B Train Epoch: 18 [206848/217864 (94%)]	Loss: 0.795634
+Train Epoch: 18: time = 154s
+U-B Train Epoch: 19 [2048/217864 (1%)]	Loss: 0.920003
+U-B Train Epoch: 19 [43008/217864 (20%)]	Loss: 0.736152
+U-B Train Epoch: 19 [83968/217864 (38%)]	Loss: 0.760129
+U-B Train Epoch: 19 [124928/217864 (57%)]	Loss: 0.760341
+U-B Train Epoch: 19 [165888/217864 (76%)]	Loss: 0.781150
+U-B Train Epoch: 19 [206848/217864 (94%)]	Loss: 0.790416
+Train Epoch: 19: time = 148s
+U-B Train Epoch: 20 [2048/217864 (1%)]	Loss: 0.872623
+U-B Train Epoch: 20 [43008/217864 (20%)]	Loss: 0.869148
+U-B Train Epoch: 20 [83968/217864 (38%)]	Loss: 0.860290
+U-B Train Epoch: 20 [124928/217864 (57%)]	Loss: 0.794135
+U-B Train Epoch: 20 [165888/217864 (76%)]	Loss: 0.792379
+U-B Train Epoch: 20 [206848/217864 (94%)]	Loss: 0.769221
+Train Epoch: 20: time = 149s
+U-B Train Epoch: 21 [2048/217864 (1%)]	Loss: 0.901499
+U-B Train Epoch: 21 [43008/217864 (20%)]	Loss: 0.824204
+U-B Train Epoch: 21 [83968/217864 (38%)]	Loss: 0.762815
+U-B Train Epoch: 21 [124928/217864 (57%)]	Loss: 0.762499
+U-B Train Epoch: 21 [165888/217864 (76%)]	Loss: 0.827023
+U-B Train Epoch: 21 [206848/217864 (94%)]	Loss: 0.780967
+Train Epoch: 21: time = 150s
+Test: time=9s
+Recall@20:0.05893068799347191	NDCG@20:0.02565032698956939	Precision@20:0.004148212293189301	Recall@40:0.09491733609953953	NDCG@40:0.03351726527603988	Precision@40:0.0033866264102293347	Recall@80:0.14735711567394416	NDCG@80:0.043158300767465664	Precision@80:0.0026635249725129365	
+Test: time=9s
+Recall@20:0.06694259259282763	NDCG@20:0.03546055336550733	Precision@20:0.00941989864066261	Recall@40:0.10551703850625722	NDCG@40:0.04562225547325692	Precision@40:0.007497029369150677	Recall@80:0.15987159063069933	NDCG@80:0.057829506443349644	Precision@80:0.005776709539014345	
+U-B Train Epoch: 22 [2048/217864 (1%)]	Loss: 0.873510
+U-B Train Epoch: 22 [43008/217864 (20%)]	Loss: 0.844093
+U-B Train Epoch: 22 [83968/217864 (38%)]	Loss: 0.817320
+U-B Train Epoch: 22 [124928/217864 (57%)]	Loss: 0.734209
+U-B Train Epoch: 22 [165888/217864 (76%)]	Loss: 0.874722
+U-B Train Epoch: 22 [206848/217864 (94%)]	Loss: 0.944265
+Train Epoch: 22: time = 152s
+U-B Train Epoch: 23 [2048/217864 (1%)]	Loss: 0.889591
+U-B Train Epoch: 23 [43008/217864 (20%)]	Loss: 0.822703
+U-B Train Epoch: 23 [83968/217864 (38%)]	Loss: 0.767354
+U-B Train Epoch: 23 [124928/217864 (57%)]	Loss: 0.834881
+U-B Train Epoch: 23 [165888/217864 (76%)]	Loss: 0.880005
+U-B Train Epoch: 23 [206848/217864 (94%)]	Loss: 0.853276
+Train Epoch: 23: time = 151s
+U-B Train Epoch: 24 [2048/217864 (1%)]	Loss: 0.723483
+U-B Train Epoch: 24 [43008/217864 (20%)]	Loss: 0.908465
+U-B Train Epoch: 24 [83968/217864 (38%)]	Loss: 0.838106
+U-B Train Epoch: 24 [124928/217864 (57%)]	Loss: 0.880436
+U-B Train Epoch: 24 [165888/217864 (76%)]	Loss: 0.782511
+U-B Train Epoch: 24 [206848/217864 (94%)]	Loss: 0.887680
+Train Epoch: 24: time = 144s
+U-B Train Epoch: 25 [2048/217864 (1%)]	Loss: 0.898662
+U-B Train Epoch: 25 [43008/217864 (20%)]	Loss: 0.754630
+U-B Train Epoch: 25 [83968/217864 (38%)]	Loss: 0.731320
+U-B Train Epoch: 25 [124928/217864 (57%)]	Loss: 0.934506
+U-B Train Epoch: 25 [165888/217864 (76%)]	Loss: 0.927971
+U-B Train Epoch: 25 [206848/217864 (94%)]	Loss: 0.741646
+Train Epoch: 25: time = 147s
+U-B Train Epoch: 26 [2048/217864 (1%)]	Loss: 0.714833
+U-B Train Epoch: 26 [43008/217864 (20%)]	Loss: 0.886198
+U-B Train Epoch: 26 [83968/217864 (38%)]	Loss: 0.781896
+U-B Train Epoch: 26 [124928/217864 (57%)]	Loss: 0.817883
+U-B Train Epoch: 26 [165888/217864 (76%)]	Loss: 0.898118
+U-B Train Epoch: 26 [206848/217864 (94%)]	Loss: 0.722151
+Train Epoch: 26: time = 147s
+Test: time=9s
+Recall@20:0.06965133262218892	NDCG@20:0.03011178700548147	Precision@20:0.004855784884253266	Recall@40:0.10753565400185307	NDCG@40:0.03842135630584219	Precision@40:0.003821432419854492	Recall@80:0.16177148917870812	NDCG@80:0.048376887782392436	Precision@80:0.0029079345315195797	
+Test: time=14s
+Recall@20:0.06942313626864127	NDCG@20:0.036746887198995534	Precision@20:0.009587339555468996	Recall@40:0.11059968966290079	NDCG@40:0.04769652392290653	Precision@40:0.007819758154885666	Recall@80:0.16629878333929202	NDCG@80:0.060241508962938846	Precision@80:0.006017068330755086	
+U-B Train Epoch: 27 [2048/217864 (1%)]	Loss: 0.715584
+U-B Train Epoch: 27 [43008/217864 (20%)]	Loss: 0.746137
+U-B Train Epoch: 27 [83968/217864 (38%)]	Loss: 0.913435
+U-B Train Epoch: 27 [124928/217864 (57%)]	Loss: 0.743305
+U-B Train Epoch: 27 [165888/217864 (76%)]	Loss: 0.710117
+U-B Train Epoch: 27 [206848/217864 (94%)]	Loss: 0.722096
+Train Epoch: 27: time = 150s
+U-B Train Epoch: 28 [2048/217864 (1%)]	Loss: 0.733526
+U-B Train Epoch: 28 [43008/217864 (20%)]	Loss: 0.733198
+U-B Train Epoch: 28 [83968/217864 (38%)]	Loss: 0.794803
+U-B Train Epoch: 28 [124928/217864 (57%)]	Loss: 0.801671
+U-B Train Epoch: 28 [165888/217864 (76%)]	Loss: 0.709633
+U-B Train Epoch: 28 [206848/217864 (94%)]	Loss: 0.758517
+Train Epoch: 28: time = 149s
+U-B Train Epoch: 29 [2048/217864 (1%)]	Loss: 0.707389
+U-B Train Epoch: 29 [43008/217864 (20%)]	Loss: 0.890228
+U-B Train Epoch: 29 [83968/217864 (38%)]	Loss: 0.824955
+U-B Train Epoch: 29 [124928/217864 (57%)]	Loss: 0.740649
+U-B Train Epoch: 29 [165888/217864 (76%)]	Loss: 0.762780
+U-B Train Epoch: 29 [206848/217864 (94%)]	Loss: 0.708675
+Train Epoch: 29: time = 145s
+U-B Train Epoch: 30 [2048/217864 (1%)]	Loss: 0.785775
+U-B Train Epoch: 30 [43008/217864 (20%)]	Loss: 0.697319
+U-B Train Epoch: 30 [83968/217864 (38%)]	Loss: 0.911950
+U-B Train Epoch: 30 [124928/217864 (57%)]	Loss: 0.768805
+U-B Train Epoch: 30 [165888/217864 (76%)]	Loss: 0.722221
+U-B Train Epoch: 30 [206848/217864 (94%)]	Loss: 0.875598
+Train Epoch: 30: time = 150s
+U-B Train Epoch: 31 [2048/217864 (1%)]	Loss: 0.769090
+U-B Train Epoch: 31 [43008/217864 (20%)]	Loss: 0.740482
+U-B Train Epoch: 31 [83968/217864 (38%)]	Loss: 0.813444
+U-B Train Epoch: 31 [124928/217864 (57%)]	Loss: 0.745894
+U-B Train Epoch: 31 [165888/217864 (76%)]	Loss: 0.909558
+U-B Train Epoch: 31 [206848/217864 (94%)]	Loss: 0.756493
+Train Epoch: 31: time = 150s
+Test: time=10s
+Recall@20:0.06914199602659286	NDCG@20:0.03006695326994366	Precision@20:0.004807173032295476	Recall@40:0.11104124069110845	NDCG@40:0.03920945799787294	Precision@40:0.003906503145890732	Recall@80:0.16597227541818543	NDCG@80:0.04929781627150222	Precision@80:0.0029666739720897463	
+Test: time=10s
+Recall@20:0.0620427112078659	NDCG@20:0.032565072428346956	Precision@20:0.008728529987910068	Recall@40:0.10094920087610142	NDCG@40:0.04284761092878385	Precision@40:0.0071594471439270085	Recall@80:0.15542795061356848	NDCG@80:0.05500557652634473	Precision@80:0.005577535959972964	
+U-B Train Epoch: 32 [2048/217864 (1%)]	Loss: 0.692665
+U-B Train Epoch: 32 [43008/217864 (20%)]	Loss: 0.895720
+U-B Train Epoch: 32 [83968/217864 (38%)]	Loss: 0.794031
+U-B Train Epoch: 32 [124928/217864 (57%)]	Loss: 0.858938
+U-B Train Epoch: 32 [165888/217864 (76%)]	Loss: 0.817552
+U-B Train Epoch: 32 [206848/217864 (94%)]	Loss: 0.666868
+Train Epoch: 32: time = 153s
+U-B Train Epoch: 33 [2048/217864 (1%)]	Loss: 0.668534
+U-B Train Epoch: 33 [43008/217864 (20%)]	Loss: 0.810520
+U-B Train Epoch: 33 [83968/217864 (38%)]	Loss: 0.829925
+U-B Train Epoch: 33 [124928/217864 (57%)]	Loss: 0.830956
+U-B Train Epoch: 33 [165888/217864 (76%)]	Loss: 0.708881
+U-B Train Epoch: 33 [206848/217864 (94%)]	Loss: 0.661420
+Train Epoch: 33: time = 156s
+U-B Train Epoch: 34 [2048/217864 (1%)]	Loss: 0.711250
+U-B Train Epoch: 34 [43008/217864 (20%)]	Loss: 0.883743
+U-B Train Epoch: 34 [83968/217864 (38%)]	Loss: 0.755239
+U-B Train Epoch: 34 [124928/217864 (57%)]	Loss: 0.685075
+U-B Train Epoch: 34 [165888/217864 (76%)]	Loss: 0.722265
+U-B Train Epoch: 34 [206848/217864 (94%)]	Loss: 0.702428
+Train Epoch: 34: time = 164s
+U-B Train Epoch: 35 [2048/217864 (1%)]	Loss: 0.686885
+U-B Train Epoch: 35 [43008/217864 (20%)]	Loss: 0.734925
+U-B Train Epoch: 35 [83968/217864 (38%)]	Loss: 0.833533
+U-B Train Epoch: 35 [124928/217864 (57%)]	Loss: 0.728361
+U-B Train Epoch: 35 [165888/217864 (76%)]	Loss: 0.763192
+U-B Train Epoch: 35 [206848/217864 (94%)]	Loss: 0.730976
+Train Epoch: 35: time = 157s
+U-B Train Epoch: 36 [2048/217864 (1%)]	Loss: 0.640457
+U-B Train Epoch: 36 [43008/217864 (20%)]	Loss: 0.677646
+U-B Train Epoch: 36 [83968/217864 (38%)]	Loss: 0.649631
+U-B Train Epoch: 36 [124928/217864 (57%)]	Loss: 0.739477
+U-B Train Epoch: 36 [165888/217864 (76%)]	Loss: 0.852246
+U-B Train Epoch: 36 [206848/217864 (94%)]	Loss: 0.800762
+Train Epoch: 36: time = 154s
+Test: time=9s
+Recall@20:0.06403889774027043	NDCG@20:0.02752892308092483	Precision@20:0.00436426492634687	Recall@40:0.10010025394881043	NDCG@40:0.03543168527204042	Precision@40:0.003500054084650703	Recall@80:0.15345875367214784	NDCG@80:0.04524662127128569	Precision@80:0.0027337421206247345	
+Test: time=10s
+Recall@20:0.07139692420357824	NDCG@20:0.03694328780667216	Precision@20:0.009681862786507213	Recall@40:0.11350323281561671	NDCG@40:0.04804489109574609	Precision@40:0.007827860101505324	Recall@80:0.17336167348594042	NDCG@80:0.06146927370267359	Precision@80:0.006152776410696354	
+U-B Train Epoch: 37 [2048/217864 (1%)]	Loss: 0.636019
+U-B Train Epoch: 37 [43008/217864 (20%)]	Loss: 0.788525
+U-B Train Epoch: 37 [83968/217864 (38%)]	Loss: 0.751994
+U-B Train Epoch: 37 [124928/217864 (57%)]	Loss: 0.684319
+U-B Train Epoch: 37 [165888/217864 (76%)]	Loss: 0.829985
+U-B Train Epoch: 37 [206848/217864 (94%)]	Loss: 0.755201
+Train Epoch: 37: time = 178s
+U-B Train Epoch: 38 [2048/217864 (1%)]	Loss: 0.621690
+U-B Train Epoch: 38 [43008/217864 (20%)]	Loss: 0.618749
+U-B Train Epoch: 38 [83968/217864 (38%)]	Loss: 0.827418
+U-B Train Epoch: 38 [124928/217864 (57%)]	Loss: 0.678531
+U-B Train Epoch: 38 [165888/217864 (76%)]	Loss: 0.650485
+U-B Train Epoch: 38 [206848/217864 (94%)]	Loss: 0.834823
+Train Epoch: 38: time = 179s
+U-B Train Epoch: 39 [2048/217864 (1%)]	Loss: 0.869063
+U-B Train Epoch: 39 [43008/217864 (20%)]	Loss: 0.751187
+U-B Train Epoch: 39 [83968/217864 (38%)]	Loss: 0.706630
+U-B Train Epoch: 39 [124928/217864 (57%)]	Loss: 0.626591
+U-B Train Epoch: 39 [165888/217864 (76%)]	Loss: 0.726244
+U-B Train Epoch: 39 [206848/217864 (94%)]	Loss: 0.705711
+Train Epoch: 39: time = 174s
+U-B Train Epoch: 40 [2048/217864 (1%)]	Loss: 0.677321
+U-B Train Epoch: 40 [43008/217864 (20%)]	Loss: 0.603112
+U-B Train Epoch: 40 [83968/217864 (38%)]	Loss: 0.671706
+U-B Train Epoch: 40 [124928/217864 (57%)]	Loss: 0.664320
+U-B Train Epoch: 40 [165888/217864 (76%)]	Loss: 0.640498
+U-B Train Epoch: 40 [206848/217864 (94%)]	Loss: 0.789915
+Train Epoch: 40: time = 175s
+U-B Train Epoch: 41 [2048/217864 (1%)]	Loss: 0.656199
+U-B Train Epoch: 41 [43008/217864 (20%)]	Loss: 0.717853
+U-B Train Epoch: 41 [83968/217864 (38%)]	Loss: 0.694339
+U-B Train Epoch: 41 [124928/217864 (57%)]	Loss: 0.654962
+U-B Train Epoch: 41 [165888/217864 (76%)]	Loss: 0.667857
+U-B Train Epoch: 41 [206848/217864 (94%)]	Loss: 0.817995
+Train Epoch: 41: time = 175s
+Test: time=10s
+Recall@20:0.07123600960138408	NDCG@20:0.030436520766037464	Precision@20:0.004801771673648033	Recall@40:0.11225830425618083	NDCG@40:0.03940978165616533	Precision@40:0.003883547560177342	Recall@80:0.17312132530546193	NDCG@80:0.050532485981076146	Precision@80:0.0030362158418152443	
+Test: time=11s
+Recall@20:0.07204146283201127	NDCG@20:0.037329681390715144	Precision@20:0.009622447959699628	Recall@40:0.11409342359798547	NDCG@40:0.0484237816416961	Precision@40:0.0077805986630552154	Recall@80:0.17580802530529974	NDCG@80:0.062250341364100334	Precision@80:0.006171681024709634	
+U-B Train Epoch: 42 [2048/217864 (1%)]	Loss: 0.685968
+U-B Train Epoch: 42 [43008/217864 (20%)]	Loss: 0.746290
+U-B Train Epoch: 42 [83968/217864 (38%)]	Loss: 0.741116
+U-B Train Epoch: 42 [124928/217864 (57%)]	Loss: 0.736038
+U-B Train Epoch: 42 [165888/217864 (76%)]	Loss: 0.780835
+U-B Train Epoch: 42 [206848/217864 (94%)]	Loss: 0.750372
+Train Epoch: 42: time = 180s
+U-B Train Epoch: 43 [2048/217864 (1%)]	Loss: 0.767280
+U-B Train Epoch: 43 [43008/217864 (20%)]	Loss: 0.610179
+U-B Train Epoch: 43 [83968/217864 (38%)]	Loss: 0.632203
+U-B Train Epoch: 43 [124928/217864 (57%)]	Loss: 0.590495
+U-B Train Epoch: 43 [165888/217864 (76%)]	Loss: 0.614686
+U-B Train Epoch: 43 [206848/217864 (94%)]	Loss: 0.592822
+Train Epoch: 43: time = 180s
+U-B Train Epoch: 44 [2048/217864 (1%)]	Loss: 0.618645
+U-B Train Epoch: 44 [43008/217864 (20%)]	Loss: 0.706406
+U-B Train Epoch: 44 [83968/217864 (38%)]	Loss: 0.573359
+U-B Train Epoch: 44 [124928/217864 (57%)]	Loss: 0.701222
+U-B Train Epoch: 44 [165888/217864 (76%)]	Loss: 0.787008
+U-B Train Epoch: 44 [206848/217864 (94%)]	Loss: 0.630595
+Train Epoch: 44: time = 176s
+U-B Train Epoch: 45 [2048/217864 (1%)]	Loss: 0.589486
+U-B Train Epoch: 45 [43008/217864 (20%)]	Loss: 0.640545
+U-B Train Epoch: 45 [83968/217864 (38%)]	Loss: 0.770289
+U-B Train Epoch: 45 [124928/217864 (57%)]	Loss: 0.670453
+U-B Train Epoch: 45 [165888/217864 (76%)]	Loss: 0.634477
+U-B Train Epoch: 45 [206848/217864 (94%)]	Loss: 0.589625
+Train Epoch: 45: time = 178s
+U-B Train Epoch: 46 [2048/217864 (1%)]	Loss: 0.707076
+U-B Train Epoch: 46 [43008/217864 (20%)]	Loss: 0.769647
+U-B Train Epoch: 46 [83968/217864 (38%)]	Loss: 0.580456
+U-B Train Epoch: 46 [124928/217864 (57%)]	Loss: 0.782138
+U-B Train Epoch: 46 [165888/217864 (76%)]	Loss: 0.718473
+U-B Train Epoch: 46 [206848/217864 (94%)]	Loss: 0.750076
+Train Epoch: 46: time = 178s
+Test: time=10s
+Recall@20:0.06926601329967065	NDCG@20:0.029431633355873274	Precision@20:0.004620827492207782	Recall@40:0.11211453574103233	NDCG@40:0.03876897938967241	Precision@40:0.003814680782110835	Recall@80:0.1713793821438891	NDCG@80:0.04960305785803142	Precision@80:0.002980177225041006	
+Test: time=10s
+Recall@20:0.07066522515642987	NDCG@20:0.03681696393621963	Precision@20:0.009517122238336789	Recall@40:0.1134800628669527	NDCG@40:0.048095795226635395	Precision@40:0.007799503335018349	Recall@80:0.17624796257171516	NDCG@80:0.062174526831495124	Precision@80:0.006208139921324137	
+U-B Train Epoch: 47 [2048/217864 (1%)]	Loss: 0.601834
+U-B Train Epoch: 47 [43008/217864 (20%)]	Loss: 0.687573
+U-B Train Epoch: 47 [83968/217864 (38%)]	Loss: 0.555330
+U-B Train Epoch: 47 [124928/217864 (57%)]	Loss: 0.597586
+U-B Train Epoch: 47 [165888/217864 (76%)]	Loss: 0.656062
+U-B Train Epoch: 47 [206848/217864 (94%)]	Loss: 0.591005
+Train Epoch: 47: time = 178s
+U-B Train Epoch: 48 [2048/217864 (1%)]	Loss: 0.602184
+U-B Train Epoch: 48 [43008/217864 (20%)]	Loss: 0.633972
+U-B Train Epoch: 48 [83968/217864 (38%)]	Loss: 0.559717
+U-B Train Epoch: 48 [124928/217864 (57%)]	Loss: 0.587760
+U-B Train Epoch: 48 [165888/217864 (76%)]	Loss: 0.643480
+U-B Train Epoch: 48 [206848/217864 (94%)]	Loss: 0.726170
+Train Epoch: 48: time = 179s
+U-B Train Epoch: 49 [2048/217864 (1%)]	Loss: 0.602393
+U-B Train Epoch: 49 [43008/217864 (20%)]	Loss: 0.541942
+U-B Train Epoch: 49 [83968/217864 (38%)]	Loss: 0.677917
+U-B Train Epoch: 49 [124928/217864 (57%)]	Loss: 0.524202
+U-B Train Epoch: 49 [165888/217864 (76%)]	Loss: 0.635288
+U-B Train Epoch: 49 [206848/217864 (94%)]	Loss: 0.540041
+Train Epoch: 49: time = 175s
+U-B Train Epoch: 50 [2048/217864 (1%)]	Loss: 0.593020
+U-B Train Epoch: 50 [43008/217864 (20%)]	Loss: 0.674056
+U-B Train Epoch: 50 [83968/217864 (38%)]	Loss: 0.636378
+U-B Train Epoch: 50 [124928/217864 (57%)]	Loss: 0.579473
+U-B Train Epoch: 50 [165888/217864 (76%)]	Loss: 0.547234
+U-B Train Epoch: 50 [206848/217864 (94%)]	Loss: 0.599870
+Train Epoch: 50: time = 177s
+U-B Train Epoch: 51 [2048/217864 (1%)]	Loss: 0.620404
+U-B Train Epoch: 51 [43008/217864 (20%)]	Loss: 0.669088
+U-B Train Epoch: 51 [83968/217864 (38%)]	Loss: 0.527288
+U-B Train Epoch: 51 [124928/217864 (57%)]	Loss: 0.532471
+U-B Train Epoch: 51 [165888/217864 (76%)]	Loss: 0.585083
+U-B Train Epoch: 51 [206848/217864 (94%)]	Loss: 0.566087
+Train Epoch: 51: time = 176s
+Test: time=10s
+Recall@20:0.06882450031232304	NDCG@20:0.029144145312519944	Precision@20:0.004580317659306966	Recall@40:0.11116573034564452	NDCG@40:0.038366288065820195	Precision@40:0.0037809226070751544	Recall@80:0.1702100498907842	NDCG@80:0.04917312616198061	Precision@80:0.0029457438126668386	
+Test: time=10s
+Recall@20:0.06986603464384347	NDCG@20:0.03589347788823195	Precision@20:0.009166036637823281	Recall@40:0.11217928195445265	NDCG@40:0.046975482253208266	Precision@40:0.007490277744284765	Recall@80:0.17183564674317275	NDCG@80:0.06035634690179956	Precision@80:0.00593739883861313	
